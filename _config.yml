@@ -1,5 +1,57 @@
-title: EljerDsol
-#logo
-description: Video Editor | Content Creator
-#show_downloads: true
-theme: jekyll-theme-minimal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SweetCrumb Bakery Jobs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>SweetCrumb Bakery</h1>
+  <p>Fresh Bread. Warm Smiles. Great Careers.</p>
+  <a href="#jobs" class="btn">View Open Positions</a>
+</header>
+
+<section class="about">
+  <h2>Work With Us</h2>
+  <p>
+    SweetCrumb Bakery is always looking for passionate, hardworking people who
+    love baking and making customers happy.
+  </p>
+</section>
+
+<section id="jobs" class="jobs">
+  <h2>Open Positions</h2>
+
+  <div class="job-card">
+    <h3>Baker</h3>
+    <p>Full-time • Morning shifts</p>
+    <p>Experience preferred but not required.</p>
+    <a href="#apply" class="btn small">Apply Now</a>
+  </div>
+
+  <div class="job-card">
+    <h3>Counter Staff</h3>
+    <p>Part-time • Flexible hours</p>
+    <p>Great customer service skills needed.</p>
+    <a href="#apply" class="btn small">Apply Now</a>
+  </div>
+
+</section>
+
+<section id="apply" class="apply">
+  <h2>Apply Today</h2>
+  <p>
+    Email your resume to <strong>jobs@sweetcrumbbakery.com</strong><br/>
+    or visit us in-store to apply.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 SweetCrumb Bakery • Built with ❤️</p>
+</footer>
+
+</body>
+</html>
